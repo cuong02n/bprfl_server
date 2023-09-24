@@ -1,5 +1,4 @@
 package com.cuong02n.bprfl.control;
-
 import java.io.*;
 
 public final class PythonRunner {
@@ -7,7 +6,7 @@ public final class PythonRunner {
 
     public static PythonRunner instance() {
         if (ins == null) {
-            ins = new PythonRunner("python_multinomialNB.py", "test_", 2);
+            ins = new PythonRunner("src/main/java/com/cuong02n/bprfl/control/python_multinomialNB.py", "test_", 2);
         }
         return ins;
     }

@@ -5,6 +5,6 @@ import com.google.gson.JsonObject;
 public class TestInput {
 
     public JsonObject toJsonObject(){
-
+        return null;
     }
 }
